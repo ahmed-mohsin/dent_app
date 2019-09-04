@@ -9,8 +9,9 @@ class BottomnavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      child: BottomNavigationBar(
-        items: [
+      child: BottomNavigationBar(fixedColor: Colors.teal,
+      items: [
+
           BottomNavigationBarItem(
               backgroundColor: Colors.grey.shade50,
               icon: Icon(Icons.home,size: 15,color: Colors.teal),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'ui_bottomnavbar.dart';
 import 'myDravver.dart';
-import 'package:photo_view/photo_view.dart';
 
 class toolBody extends StatelessWidget {
   @override
@@ -87,14 +86,14 @@ Widget smalltool() {
         ),
 
         //Container(height: 300,child: Image(image: AssetImage("assets/vv.jpg"),fit: BoxFit.fill,),),
-        Container(
+        /*Container(
             height: 300,
             child: PhotoView(
               imageProvider: AssetImage("assets/dt.jpg"),
               backgroundDecoration: BoxDecoration(color: Colors.white),
               //enableRotation: true,
 
-            )),
+            )),*/
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Text(
