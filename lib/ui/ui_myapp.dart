@@ -18,8 +18,6 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-
-
   int _currentIndex =0 ;
   Widget callpage(int curntIndex){
     switch(curntIndex){
@@ -27,7 +25,6 @@ class _MyAppState extends State<MyApp> {
       case 1 : return profileActivity();
       case 2 : return bookmarksActivity();
       case 3 : return searchActivity();
-
       break;
       default : return Mybody();
 
@@ -67,9 +64,6 @@ class _MyAppState extends State<MyApp> {
             currentIndex: _currentIndex,
             onTap: (value){
             _currentIndex=value;
-            setState(() {
-
-            });
             },
             items: [
 

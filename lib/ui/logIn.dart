@@ -155,7 +155,11 @@ class _logInState extends State<logIn> {
                                   Center(
                                     child: MaterialButton(
                                       onPressed: () {
-                                        handleSignin();
+
+                                        Navigator.pushReplacement(
+                                            context, MaterialPageRoute(builder: (context) => MyApp()));
+
+                                        //  handleSignin();
                                       }
                                       ,
                                       child: Text(
